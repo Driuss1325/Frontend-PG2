@@ -17,6 +17,7 @@ const links = [
   { to: '/dashboard/devices', label: 'Dispositivos', icon: <DevicesIcon/> },
   { to: '/dashboard/alerts', label: 'Alertas', icon: <WarningIcon/> },
   { to: '/dashboard/reports', label: 'Reportes', icon: <ReportIcon/> },
+  { to: '/public', label: 'Posts', icon: <ReportIcon/> },
 ];
 
 export default function AppDrawer({ open, onClose }){
